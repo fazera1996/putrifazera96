@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>My Profile</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+	
+	
+
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    
+
+  </head>
+    <center><img src="images/border/5.png" alt="index" width="933" height="100"></center>
+  <body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> My Profile</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="personal.html" class="nav-link"><span data-hover="Personal">Personal</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="academic.html" class="nav-link"><span data-hover="Academic">Academic</span></a>
+                    </li>
+					<li class="nav-item">
+                        <a href="experience.html" class="nav-link"><span data-hover="Experience">Experience</span></a>
+                    </li>
+					 <li class="nav-item">
+                        <a href="skill.html" class="nav-link"><span data-hover="Skills">Skills</span></a>
+                    </li>
+					 <li class="nav-item">
+                        <a href="gallery.html" class="nav-link"><span data-hover="Gallery">Gallery</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link"><span data-hover="Contact Me">Contact Me</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+
+    <!-- FEATURES -->
+<style>
+.container-custom{
+  width: 50%;
+  margin: 0 auto;
+}
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.bar{
+  background-color: #EEE;
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #f3b0ff;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+
+.bar.front::before{
+  background-color: #ffcc33;
+}
+.bar.back::before{
+  background-color: #a6cfe3;
+}
+
+.bar.learning::before{
+  width: calc(20% - 10px);
+}
+.bar.basic::before{
+  width: calc(40% - 10px);
+}
+.bar.intermediate::before{
+  width: calc(60% - 10px);
+}
+.bar.advanced::before{
+  width: calc(80% - 10px);
+}
+.bar.expert::before{
+  width: calc(100% - 10px);
+}
+
+      </style>
+
+  <div class="container-custom">
+    <h1>Skill Set</h1>
+      <div class="bar learning" data-skill="Javascript"></div>
+    <div class="bar back basic" data-skill="MYSQL"></div>
+    <div class="bar back intermediate" data-skill="C#"></div>
+    <div class="bar front advanced" data-skill="CSS"></div>
+    <div class="bar front expert" data-skill="HTML5"></div>
+
+  </div>
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+                    <div class="col-lg-8 col-8">                                
+                         <p class="copyright-text text-center">Disclaimer : This website is for study purposesd</p>
+                  
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>

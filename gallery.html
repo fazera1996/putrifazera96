@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>My Profilee</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    
+
+  </head>
+  <center><img src="images/border/7.png" alt="index" width="933" height="100">
+  <body>
+
+   <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> My Profile</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="personal.html" class="nav-link"><span data-hover="Personal">Personal</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="academic.html" class="nav-link"><span data-hover="Academic">Academic</span></a>
+                    </li>
+					<li class="nav-item">
+                        <a href="experience.html" class="nav-link"><span data-hover="Experience">Experience</span></a>
+                    </li>
+					 <li class="nav-item">
+                        <a href="skill.html" class="nav-link"><span data-hover="Skills">Skills</span></a>
+                    </li>
+					<li class="nav-item">
+                        <a href="gallery.html" class="nav-link"><span data-hover="Gallery">Gallery</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link"><span data-hover="Contact Me">Contact Me</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+
+<br>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.20; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+
+.center-left {
+  display: block;
+  margin-left: auto;
+}
+.center-right {
+  display: block;
+  margin-right: auto;
+}
+
+
+
+
+}
+</style>
+
+<div style="text-align:center">
+<br>
+ 
+  <p>Click on the images below:</p>
+</div>
+
+<!-- The four columns -->
+<div class="row ">
+  <div class="column center-left" >
+    <img src="images/picture/IMG_3726.jpg" alt="IMG_3726" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/picture/hike2.jpg" alt="hike2" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/picture/IMG_4989.jpg" alt="IMG_4989" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column center-right">
+    <img src="images/picture/img-04.jpg" alt="img004" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:50%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+                    <div class="col-lg-8 col-8">                                
+                        <p class="copyright-text text-center">Disclaimer : This website is for study purposesd</p>
+                  
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>
